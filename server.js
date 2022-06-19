@@ -3,6 +3,8 @@ const path = require('path')
 const app = express()
 const PORT = 3000
 
+console.log('hello')
+
 const createPath = (page) => path.resolve(__dirname, 'views', `${page}.html`)
 
 app.listen(PORT, (error) => {
